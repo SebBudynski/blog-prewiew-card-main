@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+:root {
+  --yellow: hsl(47, 88%, 63%);
+}
+
+body {
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 20rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.ilustration {
+  padding: 1rem;
+}
+
+.container img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.txt-wrapper {
+  padding: 0 1rem 1rem;
+}
+
+.name {
+  background-color: var(--yellow);
+  font-family: "Figtree", sans-serif;
+  font-weight: 800;
+  font-size: 0.8rem;
+  min-width: auto;
+  display: table;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.2rem;
+}
+
+.data {
+  padding: 1rem 0;
+}
+
+.title {
+  font-weight: 800;
+  font-family: "Figtree", sans-serif;
+  font-size: 1.1rem;
+}
