@@ -17,16 +17,18 @@ body {
 }
 
 .container {
-  max-width: 20rem;
+  max-width: 21rem;
   background-color: white;
   border-radius: 1rem;
+  border: solid 1px;
+  box-shadow: .6rem .6rem black;
 }
 
 .ilustration {
   padding: 1rem;
 }
 
-.container img {
+.ilustration img {
   width: 100%;
   border-radius: 0.5rem;
 }
@@ -46,12 +48,38 @@ body {
   border-radius: 0.2rem;
 }
 
-.data {
-  padding: 1rem 0;
+.date {
+  padding: 0.7rem 0 1rem 0;
 }
 
 .title {
   font-weight: 800;
   font-family: "Figtree", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.125rem;
+  padding-bottom: 1rem;
+}
+
+.title:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
+
+.description {
+  color: hsl(0, 0%, 50%);
+  padding-bottom: 1rem;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.avatar {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.author {
+  font-family: "Figree", sans-serif;
+  font-weight: 600;
 }
